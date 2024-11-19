@@ -41,15 +41,6 @@ const Projects = () => {
       github: 'https://github.com/TogashiCoder/IT_Support_Full-Stack_Application'
     },
    
-    // {
-    //   title: 'Unity 2D Game Platform',
-    //   description: 'A 2D platformer game built with Unity, featuring procedural level generation.',
-    //   image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80',
-    //   technologies: ['Unity', 'C#', 'Blender'],
-    //   category: 'game',
-    //   demo: 'https://github.com/TogashiCoder',
-    //   github: 'https://github.com/TogashiCoder'
-    // }
   ];
 
   const filteredProjects = filter === 'all' 
