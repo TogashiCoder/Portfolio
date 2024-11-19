@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Download, ArrowRight } from 'lucide-react';
 import cvFile from '../assets/cv.pdf'; // Import the CV file
-
+import profile from '../assets/profil.jpg';
 const Hero = () => {
   const { t } = useTranslation();
 
@@ -98,7 +98,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
                 <img
-                  src="src/assets/profil.jpg"
+                  src={profile}
                   alt="Taoufik Boucetta"
                   className="w-full h-full object-cover"
                 />

@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
 
+import projetImage1 from "../assets/anon.jpg";
+import projetImage2 from "../assets/construction.jpg";
+import projetImage3 from "../assets/It.png";
+
+
+
 const Projects = () => {
   const [filter, setFilter] = useState('all');
 
@@ -9,7 +15,7 @@ const Projects = () => {
     {
       title: 'Marketplace Platform',
       description: 'This e-commerce solution, built with Spring Boot and Angular 16, features user management, product and order handling, a shopping cart,Coupon Code, promotions, notifications, chat, analytics, secure payments, and category management. The marketplace supports multiple sellers and buyers, providing a dynamic and interactive platform for all participants.',
-      image: "src/assets/anon.jpg",
+      image: projetImage1,
       technologies: ['Spring Boot', 'Angular 16', 'PostgreSQL', 'Cloudinary', 'WebSocket'],
       category: 'fullstack',
       demo: 'https://youtu.be/ZOs15jRarxc',
@@ -18,7 +24,7 @@ const Projects = () => {
     {
       title: 'Microservice-ConstructionXS',
       description: 'A microservices-based platform for managing construction projects, including task allocation, resource planning.',
-      image: 'src/assets/construction.jpg',
+      image: projetImage2,
       technologies: ['Spring Boot','PostgreSQL', 'Docker', 'MicroService','Angular 16'],
       category: 'fullstack',
       demo: 'https://github.com/TogashiCoder/Microservice-ConstructionXS-',
@@ -28,7 +34,7 @@ const Projects = () => {
     {
       title: 'IT support App: Système de Gestion des Ressources Informatiques',
       description: "L'objectif de ce système est de faciliter la gestion des équipements informatiques au sein d'une organisation, ainsi que de fournir un suivi efficace des pannes et des tickets de support. Le système doit permettre la génération de rapports et de statistiques pour évaluer les performances et l'état des équipements.",
-      image: 'src/assets/It.png',
+      image: projetImage3,
       technologies: ['Spring Boot', 'Docker','Angular 16',],
       category: 'fullstack',
       demo: 'https://github.com/TogashiCoder/IT_Support_Full-Stack_Application',
